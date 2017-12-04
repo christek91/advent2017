@@ -8,10 +8,10 @@ dist = length / 2
 sum = 0
 
 for i in range(length):
-	c = int(input[i])
-	other_c = int(input[i-dist])
+    c = int(input[i])
+    other_c = int(input[i-dist])
 
-	if c == other_c:
-		sum+=c
+    if c == other_c:
+        sum+=c
 
 print sum

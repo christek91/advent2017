@@ -6,10 +6,10 @@ input = '61697637962276641366442297247367117738114719863473648131982449728688116
 prev_c = int(input[-1])
 sum = 0
 for c in input:
-	c = int(c)
-	if c == prev_c:
-		sum+=c
+    c = int(c)
+    if c == prev_c:
+        sum+=c
 
-	prev_c = c
+    prev_c = c
 
 print sum
